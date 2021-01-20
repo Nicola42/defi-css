@@ -1,0 +1,56 @@
+#game{
+    background-color: rgb(136, 136, 136);
+    width: 1100px;
+    height: 600px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+#game div > div{
+    position: absolute;
+    background-color: black;
+    color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    text-indent: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game div > div:hover{
+    opacity: 1%;
+    position: absolute;
+}
+
+#game div span{
+    opacity: 1%;
+    background-color: rgb(250, 20, 20);
+    color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    text-indent: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game span:hover{
+    background-color: rgb(250, 20, 20);
+    color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    text-indent: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+    position: relative;
+}
