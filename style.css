@@ -24,8 +24,6 @@
 
 #game div > div:hover{
     opacity: 1%;
-    /* transition: opacity 2s, transform 1.5s;
-    transform: rotate(360deg); */
 }
 
 #game div span{
