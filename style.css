@@ -7,7 +7,6 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    position: relative;
 }
 
 #game div > div{
@@ -25,20 +24,15 @@
 
 #game div > div:hover{
     opacity: 1%;
-    position: absolute;
+    /* transition: opacity 2s, transform 1.5s;
+    transform: rotate(360deg); */
 }
 
 #game div span{
     opacity: 1%;
-    background-color: rgb(250, 20, 20);
-    color: whitesmoke;
     width: 300px;
     height: 250px;
-    text-align: center;
-    text-indent: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #game span:hover{
@@ -46,11 +40,10 @@
     color: whitesmoke;
     width: 300px;
     height: 250px;
-    text-align: center;
-    text-indent: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 100%;
-    position: relative;
+    transition: opacity 2s, transform 1.5s;
+    transform: rotate(360deg);
 }
